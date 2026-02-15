@@ -18,9 +18,8 @@ RUN npm prune --production
 # Create memory directory
 RUN mkdir -p /app/server/memory/data
 
-EXPOSE 3001
+EXPOSE 10000
 
-ENV PORT=3001
 ENV MEMORY_PATH=/app/server/memory/data
 
 CMD ["node", "server/index.js"]
