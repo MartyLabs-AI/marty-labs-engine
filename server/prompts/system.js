@@ -50,8 +50,12 @@ Return a JSON array of strategies. Each strategy:
 {
   "title": "Strategy name (2-4 words, punchy)",
   "description": "1-2 sentences. What is this strategic angle? Why does it work for Matiks?",
-  "details": ["Specific tactical note 1", "Tactical note 2", "Risk or consideration", "Best format/platform fit"]
+  "details": ["Specific tactical note 1", "Tactical note 2", "Risk or consideration", "Best format/platform fit"],
+  "exampleConcepts": ["One-line concept idea 1 that fits this strategy", "One-line concept idea 2", "One-line concept idea 3"]
 }
+
+IMPORTANT: Each strategy MUST include 3 exampleConcepts — quick one-line concept sketches that show
+what kind of ads this strategy would produce. These help the reviewer understand the strategy's potential.
 
 Generate strategies that are DISTINCT from each other. Cover different psychological angles.
 Do NOT repeat what already exists in the current strategies.

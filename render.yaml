@@ -1,0 +1,13 @@
+services:
+  - type: web
+    runtime: docker
+    name: marty-labs-engine
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3001"
+      - key: MEMORY_PATH
+        value: /app/server/memory/data

@@ -117,6 +117,7 @@ router.post('/strategies', async (req, res) => {
         title: s.title,
         description: s.description,
         details: s.details || [],
+        exampleConcepts: s.exampleConcepts || [],
         status: 'pending',
         comments: [],
         createdAt: Date.now(),
